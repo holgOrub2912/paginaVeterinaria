@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel del Usuario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id="welcomeMessage">Bienvenido</h1>
+    </header>
+    <main>
+        <p>Gestiona todo lo de tu peludito aqui</p>
+        <button id="btn-solicitarCita">📅 Pedir Cita</button>
+        <button id="btn-solicitarExamen">📝 Pedir Examen</button>
+        <button id="verExamen">📌 Ver Examen</button>
+        <div id="calendarContainer" class="hidden">
+            <label for="fecha">Selecciona una fecha:</label>
+            <input type="date" id="fecha">
+            <button id="confirmarBtn">Confirmar</button>
+        </div>
+        <p id="mensajeConfirmacion"></p>
+
+        <div class="metodosPagoImg">
+            <div class="imagen-containerV">
+                <img src="./images/credito.png" alt="Imagen 4">
+            </div>
+            <div class="imagen-containerV">
+                <img src="./images/contraentrega.png" alt="Imagen 5">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <button id="logoutBtn">🚀Cerrar sesion</button>
+    </footer>
+    <script src="./logica.js"></script>
+    <script src="./panel.js"></script>
+</body>
+</html>
