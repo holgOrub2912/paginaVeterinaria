@@ -12,6 +12,7 @@ header {
     padding: 15px;
     color: white;
     font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
     
 }
 .header-content {
